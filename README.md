@@ -2,7 +2,7 @@
 
 ## its handy way to have SCSS useful mixins to use responsive layout.
 
-
+```CSS
     @mixin bp-xxs-max {
       @media only screen and (max-width: $screen-xxs-max){
         @content;
@@ -29,10 +29,11 @@
             @content;
         }
     }
+```
 
+In your scss file you can use is above mixing such as 
 
-In your sass file you can use is 
-
+```CSS
     body{
 
       @include bp-md-max{
@@ -55,7 +56,7 @@ In your sass file you can use is
         @include transitions(0.4s);
       }
     }
-
+```
 
 
    
