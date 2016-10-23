@@ -59,6 +59,11 @@ In your scss file you can use is above mixing such as
 ```
 
 
+![ScreenShot](Oct-23-2016 14-49-56.gif)
+
+
+ 
+
    
    
 
